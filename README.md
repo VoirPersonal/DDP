@@ -35,8 +35,7 @@ Penjelesan Kode :
     else:
         kesempatan -=1
     #kode ini untuk mengkonfirmasi ulang username dan password, jika user salah memasukkan username dan password lebih dari 3x, maka user akan program akan berhenti dibagian ini ada perulangan yang akan terus jalan selama         "kesempatan" masih lebih dari 0. dalam perulangan ini kita disuruh input username dan password kembali. Kalau username dan password yang kita input sama dengan yang pertama, berarti login berhasil dan kita keluar              dari perulangan. kalau ada salah kesempatan juga berkurang 1.
-
-   4. if kesempatan >= 1:
+4.  if kesempatan >= 1:
           while True:
               Lama_Jam_Kerja = int(input("Masukkan lama jam kerja : "))
               if Lama_Jam_Kerja == 0:
